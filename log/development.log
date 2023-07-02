@@ -1316,3 +1316,891 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 16ms (Views: 12.4ms | Allocations: 1606)
 
 
+Started GET "//" for ::1 at 2023-05-04 07:25:55 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 1314)
+Completed 200 OK in 16ms (Views: 13.6ms | Allocations: 1577)
+
+
+Started GET "//static_pages/help" for ::1 at 2023-05-04 07:25:59 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 5.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 1344)
+Completed 200 OK in 32ms (Views: 28.8ms | Allocations: 1607)
+
+
+Started GET "//static_pages/about" for ::1 at 2023-05-04 07:26:03 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 1338)
+Completed 200 OK in 17ms (Views: 15.3ms | Allocations: 1601)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-05-04 07:26:07 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 1341)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 1604)
+
+
+Started GET "//" for ::1 at 2023-05-04 07:26:12 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 1344)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 1607)
+
+
+Started GET "//static_pages/help" for ::1 at 2023-05-06 00:35:49 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 3.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 73.5ms | Allocations: 1344)
+Completed 200 OK in 92ms (Views: 84.0ms | Allocations: 1608)
+
+
+Started GET "//" for ::1 at 2023-05-07 00:51:47 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 1954)
+Completed 200 OK in 70ms (Views: 59.5ms | Allocations: 2907)
+
+
+Started GET "//static_pages/help" for ::1 at 2023-05-07 00:52:04 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 1452)
+Completed 200 OK in 21ms (Views: 15.7ms | Allocations: 1785)
+
+
+Started GET "//static_pages/help" for ::1 at 2023-05-07 00:52:06 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 1328)
+Completed 200 OK in 22ms (Views: 19.9ms | Allocations: 1591)
+
+
+Started GET "//static_pages/help" for ::1 at 2023-05-07 00:52:08 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 1336)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 1599)
+
+
+Started GET "//" for ::1 at 2023-05-07 00:52:18 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 1351)
+Completed 200 OK in 18ms (Views: 15.9ms | Allocations: 1614)
+
+
+Started GET "/static_pages/help" for ::1 at 2023-06-07 01:38:25 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 29.4ms | Allocations: 391)
+  Rendered layout layouts/application.html.erb (Duration: 1761.1ms | Allocations: 83305)
+Completed 200 OK in 2061ms (Views: 1903.7ms | ActiveRecord: 0.0ms | Allocations: 86856)
+
+
+Started GET "//" for ::1 at 2023-06-07 21:02:19 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 1657)
+Completed 200 OK in 34ms (Views: 26.2ms | Allocations: 2061)
+
+
+Started GET "//" for ::1 at 2023-06-07 21:02:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 1335)
+Completed 200 OK in 39ms (Views: 35.3ms | Allocations: 1602)
+
+
+Started GET "//" for ::1 at 2023-06-07 21:56:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 66.8ms | Allocations: 1917)
+Completed 200 OK in 181ms (Views: 123.0ms | Allocations: 2733)
+
+
+Started GET "//" for ::1 at 2023-06-07 22:43:50 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 2123)
+Completed 200 OK in 114ms (Views: 97.7ms | Allocations: 2959)
+
+
+Started GET "//" for ::1 at 2023-06-07 22:51:17 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 688.4ms | Allocations: 8038)
+  Rendered layout layouts/application.html.erb (Duration: 691.7ms | Allocations: 8133)
+Completed 500 Internal Server Error in 755ms (Allocations: 8949)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    14:                       "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "//" for ::1 at 2023-06-07 22:55:22 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 287.2ms | Allocations: 20723)
+  Rendered layout layouts/application.html.erb (Duration: 308.3ms | Allocations: 22417)
+Completed 200 OK in 318ms (Views: 315.4ms | Allocations: 22718)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:06:05 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 49.1ms | Allocations: 665)
+  Rendered layout layouts/application.html.erb (Duration: 152.9ms | Allocations: 4807)
+Completed 200 OK in 157ms (Views: 154.9ms | Allocations: 5070)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/bootstrap-sprockets"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/bootstrap"):
+  
+Started GET "//" for ::1 at 2023-06-07 23:08:07 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1054.3ms | Allocations: 82500)
+  Rendered layout layouts/application.html.erb (Duration: 1057.6ms | Allocations: 82614)
+Completed 500 Internal Server Error in 1149ms (ActiveRecord: 0.0ms | Allocations: 86107)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (D:/data/rails/environment/IZ2App/tmp/cache/assets/sprockets/v4.0.0/S2/S25RCJjh9zOOLjak5wE65So0_i2KU0TyLc-WPXr9URk.cache.22800.29504.812278, D:/data/rails/environment/IZ2App/tmp/cache/assets/sprockets/v4.0.0/S2/S25RCJjh9zOOLjak5wE65So0_i2KU0TyLc-WPXr9URk.cache)):
+  
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.0) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.0) lib/sprockets/loader.rb:341:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:10:59 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 123.5ms | Allocations: 19862)
+  Rendered layout layouts/application.html.erb (Duration: 140.4ms | Allocations: 21738)
+Completed 200 OK in 144ms (Views: 141.9ms | ActiveRecord: 0.0ms | Allocations: 22092)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:11:19 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.0ms | Allocations: 685)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 2044)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 2314)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:11:23 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.8ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 2069)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 2335)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:13:13 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 134.6ms | Allocations: 22479)
+  Rendered layout layouts/application.html.erb (Duration: 151.7ms | Allocations: 24537)
+Completed 200 OK in 234ms (Views: 182.3ms | ActiveRecord: 0.0ms | Allocations: 28088)
+
+
+Started GET "/microposts" for ::1 at 2023-06-07 23:13:21 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:13:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 801)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 2231)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 2544)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:13:47 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.1ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 2045)
+Completed 200 OK in 33ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 2311)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:13:59 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.5ms | Allocations: 685)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 2055)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 2322)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:14:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.2ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 2052)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 2322)
+
+
+Started GET "/microposts/1" for ::1 at 2023-06-07 23:14:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/microposts/1"):
+  
+Started GET "//" for ::1 at 2023-06-07 23:14:31 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.1ms | Allocations: 689)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 2072)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 2339)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:17:58 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.1ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 2078)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 2344)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:18:06 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.5ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 2051)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 2318)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:18:18 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 2066)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 2332)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:19:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 268.7ms | Allocations: 22276)
+  Rendered layout layouts/application.html.erb (Duration: 296.6ms | Allocations: 24337)
+Completed 200 OK in 402ms (Views: 334.9ms | ActiveRecord: 0.0ms | Allocations: 27887)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:20:41 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.4ms | Allocations: 718)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 2147)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 2480)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:23:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.7ms | Allocations: 685)
+  Rendered layout layouts/application.html.erb (Duration: 2775.4ms | Allocations: 51946)
+Completed 200 OK in 2780ms (Views: 2776.9ms | ActiveRecord: 0.0ms | Allocations: 52216)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:25:05 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.2ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 1933.8ms | Allocations: 45087)
+Completed 200 OK in 1938ms (Views: 1935.3ms | ActiveRecord: 0.0ms | Allocations: 45357)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:26:19 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.4ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 2120.6ms | Allocations: 45870)
+Completed 200 OK in 2134ms (Views: 2131.7ms | Allocations: 46133)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:26:31 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.8ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 145.9ms | Allocations: 6851)
+Completed 200 OK in 153ms (Views: 150.6ms | Allocations: 7114)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:26:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.6ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 208.5ms | Allocations: 6843)
+Completed 200 OK in 214ms (Views: 212.0ms | Allocations: 7110)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:26:43 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.8ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 183.1ms | Allocations: 6852)
+Completed 200 OK in 188ms (Views: 184.7ms | Allocations: 7115)
+
+
+Started GET "//" for ::1 at 2023-06-07 23:26:58 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.2ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 192.7ms | Allocations: 6850)
+Completed 200 OK in 200ms (Views: 198.0ms | Allocations: 7113)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:27:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.5ms | Allocations: 688)
+  Rendered layout layouts/application.html.erb (Duration: 158.1ms | Allocations: 6857)
+Completed 200 OK in 206ms (Views: 204.0ms | Allocations: 7120)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:28:20 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.2ms | Allocations: 685)
+  Rendered layout layouts/application.html.erb (Duration: 2051.9ms | Allocations: 46586)
+Completed 200 OK in 2056ms (Views: 2053.7ms | Allocations: 46849)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-07 23:29:46 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 2019.2ms | Allocations: 46604)
+Completed 200 OK in 2032ms (Views: 2029.5ms | Allocations: 46867)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-08 00:17:09 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 70.8ms | Allocations: 1030)
+  Rendered layouts/_header.html.erb (Duration: 2.7ms | Allocations: 282)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 2058.5ms | Allocations: 48185)
+Completed 200 OK in 2104ms (Views: 2089.0ms | Allocations: 49014)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-08 00:47:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.6ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 2209.8ms | Allocations: 27765)
+Completed 500 Internal Server Error in 2215ms (Allocations: 28068)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected "}", was ""
+        on line 92:2 of app/assets/stylesheets/custom.scss
+>> }
+
+   -^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/custom.scss:92
+app/views/layouts/application.html.erb:9
+Started GET "//static_pages/home" for ::1 at 2023-06-08 00:53:32 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 804)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 93)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 1973.5ms | Allocations: 47188)
+Completed 200 OK in 1981ms (Views: 1977.3ms | Allocations: 47487)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-09 00:52:54 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1036)
+  Rendered layouts/_header.html.erb (Duration: 13.9ms | Allocations: 272)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 182)
+  Rendered layout layouts/application.html.erb (Duration: 147.6ms | Allocations: 8200)
+Completed 200 OK in 173ms (Views: 167.5ms | Allocations: 9151)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-09 01:01:26 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  
+Started GET "//" for ::1 at 2023-06-09 01:03:11 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.7ms | Allocations: 862)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 143.3ms | Allocations: 7350)
+Completed 200 OK in 152ms (Views: 148.6ms | Allocations: 7983)
+
+
+Started GET "//" for ::1 at 2023-06-09 01:03:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.3ms | Allocations: 690)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 93)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 127.3ms | Allocations: 7044)
+Completed 200 OK in 138ms (Views: 135.0ms | Allocations: 7324)
+
+
+Started GET "//" for ::1 at 2023-06-09 01:03:43 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.4ms | Allocations: 686)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 93)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 125.0ms | Allocations: 7015)
+Completed 200 OK in 131ms (Views: 128.7ms | Allocations: 7278)
+
+
+Started GET "//static_pages/home" for ::1 at 2023-06-09 01:03:48 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  
+Started GET "//" for ::1 at 2023-06-09 01:09:20 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 18.1ms | Allocations: 1027)
+  Rendered layouts/_header.html.erb (Duration: 8.8ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 180.9ms | Allocations: 8263)
+Completed 200 OK in 210ms (Views: 201.7ms | Allocations: 9064)
+
+
+Started GET "//" for ::1 at 2023-06-09 01:09:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.0ms | Allocations: 686)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 154.5ms | Allocations: 7066)
+Completed 200 OK in 159ms (Views: 156.5ms | Allocations: 7347)
+
+
+Started GET "//" for ::1 at 2023-06-09 01:09:28 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 17.9ms | Allocations: 686)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 134.2ms | Allocations: 7069)
+Completed 200 OK in 147ms (Views: 138.2ms | Allocations: 7332)
+
+
+Started GET "/about" for ::1 at 2023-06-09 01:09:35 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.8ms | Allocations: 123)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 112.3ms | Allocations: 6647)
+Completed 200 OK in 122ms (Views: 116.6ms | Allocations: 6964)
+
+
+Started GET "/contact" for ::1 at 2023-06-09 01:09:39 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 4.3ms | Allocations: 115)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 106.9ms | Allocations: 6669)
+Completed 200 OK in 116ms (Views: 110.4ms | Allocations: 6986)
+
+
+Started GET "/" for ::1 at 2023-06-09 01:09:44 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 690)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 115.1ms | Allocations: 7084)
+Completed 200 OK in 122ms (Views: 119.3ms | Allocations: 7347)
+
+
+Started GET "/" for ::1 at 2023-06-12 20:44:28 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1462.1ms | Allocations: 49495)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 379)
+  Rendered layouts/_footer.html.erb (Duration: 3.9ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 1592.9ms | Allocations: 57059)
+Completed 200 OK in 1745ms (Views: 1647.4ms | ActiveRecord: 0.0ms | Allocations: 60605)
+
+
+Started GET "/about" for ::1 at 2023-06-12 20:51:43 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 3.7ms | Allocations: 153)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 138)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 158.2ms | Allocations: 6790)
+Completed 200 OK in 166ms (Views: 161.8ms | Allocations: 7191)
+
+
+Started GET "/" for ::1 at 2023-06-12 21:11:27 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1026)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 317)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 176.8ms | Allocations: 8215)
+Completed 200 OK in 201ms (Views: 195.1ms | Allocations: 9029)
+
+
+Started GET "/contact" for ::1 at 2023-06-12 21:11:33 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 117)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 92.8ms | Allocations: 6674)
+Completed 200 OK in 99ms (Views: 94.7ms | Allocations: 7009)
+
+
+Started GET "/" for ::1 at 2023-06-12 21:23:23 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1078)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 291)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 102.0ms | Allocations: 8375)
+Completed 200 OK in 122ms (Views: 117.4ms | Allocations: 9330)
+
+
+Started GET "/signup" for ::1 at 2023-06-12 21:23:37 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 144)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 98.1ms | Allocations: 7010)
+Completed 200 OK in 120ms (Views: 115.4ms | Allocations: 7770)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230612122856)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230612122856"]]
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-06-12 13:12:37.295308"], ["updated_at", "2023-06-12 13:12:37.295308"]]
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (5.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Hartl"], ["email", "michael@example.com"], ["created_at", "2023-06-12 13:29:52.739517"], ["updated_at", "2023-06-12 13:29:52.739517"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Example User"], ["email", "user@example.com"], ["created_at", "2023-06-12 14:15:21.287644"], ["updated_at", "2023-06-12 14:15:21.287644"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexToUsersEmail (20230612142142)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230612142142"]]
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-06-12 23:35:14 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.7ms | Allocations: 906)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 102.2ms | Allocations: 7539)
+Completed 200 OK in 111ms (Views: 108.4ms | ActiveRecord: 0.0ms | Allocations: 8187)
+
+
+Started GET "/signup" for ::1 at 2023-06-12 23:35:42 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 19)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 94.2ms | Allocations: 6873)
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.0ms | Allocations: 7512)
+
+
+Started GET "/" for ::1 at 2023-07-02 00:04:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1005.9ms | Allocations: 34957)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 307)
+  Rendered layouts/_footer.html.erb (Duration: 3.2ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 1121.8ms | Allocations: 42234)
+Completed 200 OK in 1260ms (Views: 1169.1ms | ActiveRecord: 0.0ms | Allocations: 45794)
+
+
+Started GET "/about" for ::1 at 2023-07-02 00:04:39 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 3.1ms | Allocations: 153)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 93.2ms | Allocations: 6823)
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 0.0ms | Allocations: 7232)
+
+
+Started GET "/about" for ::1 at 2023-07-02 00:24:26 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 128.0ms | Allocations: 6440)
+Completed 200 OK in 133ms (Views: 130.6ms | Allocations: 6707)
+
+
+Started GET "/" for ::1 at 2023-07-02 00:24:41 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 708)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 146.7ms | Allocations: 6969)
+Completed 200 OK in 151ms (Views: 148.7ms | Allocations: 7236)
+
+
+Started GET "/help" for ::1 at 2023-07-02 00:25:04 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 3.5ms | Allocations: 118)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 115.8ms | Allocations: 6547)
+Completed 200 OK in 123ms (Views: 119.3ms | Allocations: 6864)
+
+
+Started GET "/" for ::1 at 2023-07-02 00:25:09 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.8ms | Allocations: 704)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 111.9ms | Allocations: 6959)
+Completed 200 OK in 116ms (Views: 114.4ms | Allocations: 7226)
+
+
+Started GET "/" for ::1 at 2023-07-03 00:19:59 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 39.2ms | Allocations: 907)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 202.6ms | Allocations: 7432)
+Completed 200 OK in 207ms (Views: 205.0ms | Allocations: 8067)
+
+
+Started GET "/signup" for ::1 at 2023-07-03 00:20:15 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 149)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 190.1ms | Allocations: 6914)
+Completed 200 OK in 206ms (Views: 202.3ms | Allocations: 7668)
+
+
+Started GET "/about" for ::1 at 2023-07-03 00:21:00 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 188.2ms | Allocations: 6423)
+Completed 200 OK in 194ms (Views: 192.0ms | Allocations: 6704)
+
+
+Started GET "/" for ::1 at 2023-07-03 00:21:05 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 707)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 154.2ms | Allocations: 6968)
+Completed 200 OK in 161ms (Views: 158.9ms | Allocations: 7231)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToUsers (20230702154831)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (4.0ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230702154831"]]
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "michael@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Michael Hartl"], ["email", "michael@example.com"], ["created_at", "2023-07-02 15:59:51.076354"], ["updated_at", "2023-07-02 15:59:51.076354"], ["password_digest", "[FILTERED]"]]
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "michael@example.com"], ["LIMIT", 1]]
