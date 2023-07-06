@@ -3280,3 +3280,963 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 184ms (Views: 172.9ms | ActiveRecord: 0.3ms | Allocations: 7701)
 
 
+Started GET "/users/4" for ::1 at 2023-07-06 00:06:45 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 10ms (Allocations: 2487)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/users/4" for ::1 at 2023-07-06 00:09:23 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 6ms (Allocations: 2411)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/users/1" for ::1 at 2023-07-06 00:09:39 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 7ms (Allocations: 2374)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/" for ::1 at 2023-07-06 00:09:55 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 26.6ms | Allocations: 2436)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 2522)
+Completed 500 Internal Server Error in 48ms (Allocations: 3410)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    14:                       "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/users/1" for ::1 at 2023-07-06 00:12:21 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 7ms (Allocations: 2421)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:4:in `show'
+Started POST "/users" for ::1 at 2023-07-06 00:14:13 +0900
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2023-07-06 00:14:27 +0900
+Processing by UsersController#new as HTML
+Completed 406 Not Acceptable in 17ms (Allocations: 714)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#new is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/users/3" for ::1 at 2023-07-06 00:14:40 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2374)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/users/3" for ::1 at 2023-07-06 00:39:31 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2439)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:3:in `show'
+Started GET "/users/3" for ::1 at 2023-07-06 00:39:47 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 5ms (Allocations: 2396)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:3:in `show'
+Started GET "/" for ::1 at 2023-07-06 00:39:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 41.0ms | Allocations: 2425)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 2511)
+Completed 500 Internal Server Error in 74ms (Allocations: 3393)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    14:                       "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:13
+Started POST "/users" for ::1 at 2023-07-06 00:40:08 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Sanhinaki", "email"=>"sanhinaki@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+Completed 500 Internal Server Error in 5ms (Allocations: 2708)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.new(user_params)
+            ^^^^):
+  
+app/controllers/users_controller.rb:11:in `create'
+Started GET "/" for ::1 at 2023-07-06 00:40:54 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 31.4ms | Allocations: 2169)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 2246)
+Completed 500 Internal Server Error in 38ms (Allocations: 2499)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    14:                       "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "//users/1" for ::1 at 2023-07-06 00:41:02 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 6ms (Allocations: 2396)
+
+
+  
+NameError (uninitialized constant UsersController::User
+
+    @user = User.find(params[:id])
+            ^^^^):
+  
+app/controllers/users_controller.rb:3:in `show'
+Started GET "/" for ::1 at 2023-07-06 00:43:17 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 25.4ms | Allocations: 2169)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 2246)
+Completed 500 Internal Server Error in 31ms (Allocations: 2486)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    14:                       "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for ::1 at 2023-07-06 00:48:39 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 20.0ms | Allocations: 1090)
+  Rendered layout layouts/application.html.erb (Duration: 2052.6ms | Allocations: 50871)
+Completed 500 Internal Server Error in 2064ms (Allocations: 51113)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "D:/data/rails/environment/IZ2App/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               shared/error_messages
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:      <%= render 'layouts/header' %>
+    14:      <div class="container">
+    15:        <% flash.each do |message_type, message| %>
+    16:           <div class="alert alert-<%= message_type %>"><%= message %></div>
+  
+app/views/layouts/application.html.erb:13
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230705155613)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230705155613)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/" for ::1 at 2023-07-06 01:30:10 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 3 pending migrations:
+
+20230705155613_create_users.rb
+20230705161632_add_index_to_users_email.rb
+20230705162441_add_password_digest_to_users.rb
+
+
+):
+  
+activerecord (7.0.4) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230705155613)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230705155613)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (4.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705155613"]]
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddIndexToUsersEmail (20230705161632)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705161632"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddPasswordDigestToUsers (20230705162441)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.6ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705162441"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-07-05 17:01:44.388222"], ["updated_at", "2023-07-05 17:01:44.388222"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-07-06 02:02:03 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2515.1ms | Allocations: 102041)
+  Rendered layout layouts/application.html.erb (Duration: 2797.0ms | Allocations: 110414)
+Completed 500 Internal Server Error in 2865ms (ActiveRecord: 0.0ms | Allocations: 112614)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "D:/data/rails/environment/IZ2App/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               shared/error_messages
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:      <%= render 'layouts/header' %>
+    14:      <div class="container">
+    15:        <% flash.each do |message_type, message| %>
+    16:           <div class="alert alert-<%= message_type %>"><%= message %></div>
+  
+app/views/layouts/application.html.erb:13
+Started GET "//users/1" for ::1 at 2023-07-06 02:02:37 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+Completed 404 Not Found in 46ms (ActiveRecord: 1.6ms | Allocations: 4995)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  
+app/controllers/users_controller.rb:3:in `show'
+Started GET "/about" for ::1 at 2023-07-06 02:02:51 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.5ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 309.5ms | Allocations: 8025)
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms | Allocations: 8353)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "D:/data/rails/environment/IZ2App/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               shared/error_messages
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:      <%= render 'layouts/header' %>
+    14:      <div class="container">
+    15:        <% flash.each do |message_type, message| %>
+    16:           <div class="alert alert-<%= message_type %>"><%= message %></div>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/about" for ::1 at 2023-07-06 02:04:28 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 170.8ms | Allocations: 7785)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.0ms | Allocations: 8031)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "D:/data/rails/environment/IZ2App/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               shared/error_messages
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:      <%= render 'layouts/header' %>
+    14:      <div class="container">
+    15:        <% flash.each do |message_type, message| %>
+    16:           <div class="alert alert-<%= message_type %>"><%= message %></div>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/about" for ::1 at 2023-07-06 02:04:33 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 152.8ms | Allocations: 7779)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms | Allocations: 8021)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "D:/data/rails/environment/IZ2App/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               shared/error_messages
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:      <%= render 'layouts/header' %>
+    14:      <div class="container">
+    15:        <% flash.each do |message_type, message| %>
+    16:           <div class="alert alert-<%= message_type %>"><%= message %></div>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/about" for ::1 at 2023-07-06 02:16:59 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 334)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 159.7ms | Allocations: 8194)
+Completed 200 OK in 184ms (Views: 176.3ms | Allocations: 9035)
+
+
+Started GET "/" for ::1 at 2023-07-06 02:17:11 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 860)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 104.7ms | Allocations: 7639)
+Completed 200 OK in 111ms (Views: 106.8ms | Allocations: 7974)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 02:17:17 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 212)
+  Rendered users/new.html.erb within layouts/application (Duration: 120.9ms | Allocations: 5434)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 212.4ms | Allocations: 12373)
+Completed 200 OK in 823ms (Views: 225.2ms | ActiveRecord: 0.7ms | Allocations: 22715)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 10:42:24 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1336)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 149.3ms | Allocations: 8111)
+Completed 200 OK in 158ms (Views: 151.0ms | Allocations: 8433)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 23:39:04 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1260)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 153.2ms | Allocations: 8046)
+Completed 200 OK in 160ms (Views: 156.2ms | Allocations: 8324)
+
+
+Started GET "/" for ::1 at 2023-07-06 23:40:46 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.9ms | Allocations: 705)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 128.5ms | Allocations: 7486)
+Completed 200 OK in 132ms (Views: 130.2ms | Allocations: 7750)
+
+
+Started GET "/help" for ::1 at 2023-07-06 23:40:50 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 5.4ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 104.4ms | Allocations: 7091)
+Completed 200 OK in 111ms (Views: 106.1ms | Allocations: 7428)
+
+
+Started GET "/about" for ::1 at 2023-07-06 23:41:03 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 94.9ms | Allocations: 6959)
+Completed 200 OK in 99ms (Views: 97.0ms | Allocations: 7222)
+
+
+Started GET "/contact" for ::1 at 2023-07-06 23:41:05 +0900
+Processing by StaticPagesController#contact as HTML
+Completed 406 Not Acceptable in 23ms (Allocations: 718)
+
+
+  
+ActionController::MissingExactTemplate (StaticPagesController#contact is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-07-06 23:41:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 703)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 109.6ms | Allocations: 7511)
+Completed 200 OK in 116ms (Views: 111.8ms | Allocations: 7774)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 23:41:27 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1281)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 112.2ms | Allocations: 8055)
+Completed 200 OK in 118ms (Views: 115.3ms | Allocations: 8333)
+
+
+Started POST "/users" for ::1 at 2023-07-06 23:42:12 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Makoto", "email"=>"makoto@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "makoto@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Create (3.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Makoto"], ["email", "makoto@gmail.com"], ["created_at", "2023-07-06 14:42:13.319175"], ["updated_at", "2023-07-06 14:42:13.319175"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 387ms (ActiveRecord: 10.5ms | Allocations: 5159)
+
+
+Started GET "/users/1" for ::1 at 2023-07-06 23:42:13 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_footer.html.erb (Duration: 8.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 105.0ms | Allocations: 7246)
+Completed 200 OK in 117ms (Views: 106.6ms | ActiveRecord: 0.3ms | Allocations: 8149)
+
+
+Started GET "/users/1" for ::1 at 2023-07-06 23:42:26 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 143.0ms | Allocations: 6944)
+Completed 200 OK in 157ms (Views: 152.3ms | ActiveRecord: 0.3ms | Allocations: 7684)
+
+
+Started GET "/" for ::1 at 2023-07-06 23:42:31 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 705)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 115.1ms | Allocations: 7495)
+Completed 200 OK in 119ms (Views: 116.8ms | ActiveRecord: 0.0ms | Allocations: 7762)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 23:47:31 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 14)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1319)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 106.9ms | Allocations: 8093)
+Completed 200 OK in 111ms (Views: 108.8ms | ActiveRecord: 0.0ms | Allocations: 8375)
+
+
+Started GET "/" for ::1 at 2023-07-06 23:47:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.0ms | Allocations: 699)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 105.2ms | Allocations: 7492)
+Completed 200 OK in 109ms (Views: 106.9ms | Allocations: 7755)
+
+
+Started GET "/help" for ::1 at 2023-07-06 23:47:42 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 98.9ms | Allocations: 6962)
+Completed 200 OK in 102ms (Views: 100.6ms | Allocations: 7225)
+
+
+Started GET "/" for ::1 at 2023-07-06 23:47:44 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 699)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 100.6ms | Allocations: 7471)
+Completed 200 OK in 104ms (Views: 102.4ms | Allocations: 7734)
+
+
+Started GET "/signup" for ::1 at 2023-07-06 23:47:46 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1253)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 96.7ms | Allocations: 8032)
+Completed 200 OK in 105ms (Views: 101.7ms | Allocations: 8310)
+
+
+Started GET "/" for ::1 at 2023-07-06 23:47:48 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.7ms | Allocations: 701)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 97.4ms | Allocations: 7488)
+Completed 200 OK in 102ms (Views: 99.6ms | Allocations: 7751)
+
+
+  [1m[35m (11.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230705155613)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705155613"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddIndexToUsersEmail (20230705161632)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705161632"]]
+  [1m[36mTRANSACTION (6.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddPasswordDigestToUsers (20230705162441)
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.7ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230705162441"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-07-06 14:51:49.963445"], ["updated_at", "2023-07-06 14:51:49.963445"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
